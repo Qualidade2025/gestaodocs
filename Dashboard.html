@@ -1,0 +1,13 @@
+<section id="view-dashboard" class="view">
+  <div class="page-head"><div><h1>Início</h1></div></div>
+  <div id="kpiGrid" class="kpi-grid dashboard-kpi-grid"></div>
+  <section class="dashboard-pending-section">
+    <div class="dashboard-section-title"><h2>Minhas pendências</h2><span>Itens que precisam de atenção</span></div>
+    <div class="dashboard-pending-grid">
+      <article class="card dashboard-pending-card"><div class="dashboard-pending-head"><h3>Em revisão</h3><span id="revisionPendingCount" class="count-badge">0</span></div><div id="revisionPending" class="dashboard-pending-list"></div></article>
+      <article class="card dashboard-pending-card"><div class="dashboard-pending-head"><h3>Aguardando aprovação</h3><span id="approvalPendingCount" class="count-badge">0</span></div><div id="approvalPending" class="dashboard-pending-list"></div></article>
+      <article class="card dashboard-pending-card"><div class="dashboard-pending-head"><h3>Aguardando treinamento</h3><span id="trainingPendingCount" class="count-badge">0</span></div><div id="trainingPending" class="dashboard-pending-list"></div></article>
+    </div>
+  </section>
+  <details id="dashboardAuditCard" class="card dashboard-audit-card hidden"><summary>Últimas atividades</summary><div id="recentAudit" class="activity-list"></div></details>
+</section>
