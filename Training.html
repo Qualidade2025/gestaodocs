@@ -1,0 +1,14 @@
+<section id="view-training" class="view hidden">
+  <div class="page-head"><div><h1>Treinamentos</h1></div></div>
+  <div class="training-toolbar">
+    <div class="segmented training-view-tabs"><button data-training-view="documents" class="active">Por documento</button><button data-training-view="people">Por colaborador</button></div>
+    <div class="training-filters">
+      <input id="trainingSearch" placeholder="Pesquisar documento ou colaborador">
+      <select id="trainingSector"><option value="">Todos os setores</option></select>
+      <select id="trainingType"><option value="">Todos os tipos</option><option>Treinamento</option><option>Atualização</option><option>Ciência</option><option>Atualização de ciência</option></select>
+      <select id="trainingStatus"><option value="">Todos os status</option><option>Pendente</option><option>Concluído</option><option>Dispensado</option></select>
+      <button class="btn-grey" id="filterTrainingBtn">Filtrar</button>
+    </div>
+  </div>
+  <div class="card table-responsive" id="trainingTable"></div>
+</section>
